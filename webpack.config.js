@@ -68,7 +68,7 @@ module.exports = {
     }),
     new Dotenv({ systemvars: true }),
     new MiniCssExtractPlugin({}),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     new DashboardPlugin(),
   ],
   optimization: {
